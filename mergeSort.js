@@ -13,7 +13,6 @@ function merge(left, right) {
     }
   }
 
-  // Kalanları ekle
   return result.concat(left.slice(i)).concat(right.slice(j));
 }
 
